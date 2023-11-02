@@ -1,0 +1,65 @@
+/* ALL Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+/* ALL Common CSS End */
+
+/* counterUp part start */
+#counter_part {
+  height: 100vh;
+  padding: 309px 0;
+  background: #00d5ff;
+}
+.item_part {
+    display: flex;
+}
+.item {
+  background: rgba(92, 92, 92, 0.384);
+  width: 25%;
+  padding: 20px;
+  color: #1d1e1ec0;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+}
+.item h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  font-family: 'Teko', sans-serif;
+}
+.item .color {
+  color: #ffffff;
+  padding: 10px 0;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.717);
+}
+/* counterUp part end */
